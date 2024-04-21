@@ -1,6 +1,5 @@
-import reactLogo from '@/assets/react.svg';
-
-import { HeaderComponent } from './components/header/Header.component.tsx';
+import { AboutComponent } from './components/about/About.component.tsx';
+import { HeaderComponent } from './components/header/Header.component';
 
 import './App.css';
 
@@ -9,10 +8,7 @@ function App() {
         <>
             <HeaderComponent />
             <main className="home">
-                <h1>
-                    <img src={reactLogo} alt="React logo" />
-                    Home page
-                </h1>
+                <AboutComponent />
             </main>
         </>
     );
