@@ -3,9 +3,9 @@ import imageAbout from '@/assets/imageAbout.png';
 import styles from './about.module.css';
 
 const AboutComponent = () => (
-    <div className={styles.about_container}>
+    <section className={styles.about_container}>
         <h1 className={styles.about_title}>About me</h1>
-        <div className={styles.about_description}>
+        <article className={styles.about_description}>
             <p>
                 Hi! My name is [Name] and I&#39;m a Junior Frontend Developer. I am already familiar with main Web Technologies like React,
                 HTML, CSS, JavaScript and Git version control system.
@@ -16,11 +16,11 @@ const AboutComponent = () => (
                 small project for the portfolio.
             </p>
             <p>You can contact me via [social network name] and check out my GitHub.</p>
-        </div>
+        </article>
         <div className={styles.about_image}>
             <img src={imageAbout} alt="me" />
         </div>
-    </div>
+    </section>
 );
 
 export default AboutComponent;
