@@ -17,7 +17,7 @@ const AboutComponent = () => (
             </p>
             <p>You can contact me via [social network name] and check out my GitHub.</p>
         </article>
-        <figure  className={styles.about_image}>
+        <figure className={styles.about_image}>
             <img src={imageAbout} alt="me" />
         </figure>
     </section>
